@@ -1,0 +1,80 @@
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>форми</title>
+</head>
+<body>
+<form action="#". method="GET">
+    
+    <fieldset> 
+        <legend>Контактная информация</legend>
+        <div>
+            <Label>Имя</Label> 
+             <input type="text" name="" id="">
+                                  
+        </div>
+    
+        <div>
+          <label >Телефон</label> 
+           <input type="tel" name="" id="">
+        </div>
+    
+             <div>
+          <label for="">Email</label> 
+           <input type="email" name="" id="">
+        </div>
+    
+        <div>
+         <label for="">Дата посещения</label>  
+            <input type="date" name="" id="">
+        </div>
+    
+    </fieldset>
+
+   
+   
+    <fieldset>
+        <legend>Персональная информация </legend>
+
+        <div>
+    <label for="">Возраст</label>
+    <input type="number". min="1" max="100" step="1"  >
+        </div>
+         
+        <div>
+            <label for="">Любимая кухня</label>
+            <select name="кухня" >
+                <option selected  value="Русская">Русская</option>
+                <option value="Азиатская">Азиатская</option>
+                <option value="Грузинская">Грузинская</option>
+                <option value="Африканская">Африканская</option>
+
+            </select>
+        </div>
+
+          <div>
+            <label for="">Какие блюда Вы бы хотели увидеть в меню?</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+         </div>
+
+    </fieldset>
+
+    <fieldset>
+<legend>Оценка нашего заведения</legend>
+<label for=""> <strong>Почему Вы выбрали наше заведение?</strong> </label>
+  <p> <input type="radio" name="выбор" value="рядом"  >Недалеко от дома/работы</p>
+  <p> <input type="radio" name="выбор" value="реклама"  >Увидел рекламу</p>
+  <p> <input type="radio" name="выбор" value="совет"  >Посоветовали</p>
+  <p> <input type="radio" name="выбор" value="качество"  >Оптимальное соотношение цены и качества</p>
+
+  <label for=""><strong> Вы будете рекомендовать наше заведение своим знакомым?</strong> </label>
+  <p> <input type="radio" name="выбор" value="да"  >да</p>
+  <p> <input type="radio" name="выбор" value="нет"  >нет</p>
+  
+    </fieldset>
+    <input type="submit" value="Отправить">
+</form>
+</body>
+</html>
