@@ -17,7 +17,7 @@ html,body{
     width: 100%;
     font-size: 100%;
     line-height: 1;
-    font-size: 14px;
+    font-size: 16px;
     -ms-text-size-adjust:100%;
     -moz-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
@@ -32,10 +32,9 @@ ul li{list-style: none;}
 img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 
-form{
-    background:#faf3ee ;
-    padding:#d7ffff ;
-   }
+form{background-color:#faf3ee ;
+
+}
 .anketa {
     font-size: 32px;
      color :  #712300;
@@ -55,27 +54,24 @@ form{
         text-align:left ;
         }
     
-    .block {
-        border color:  #d7ffff  ;
-        padding: ;
-        margin: ;
-        box-sizing: border-box;
-        border-radius: 8px;
+    fieldset {
+        border-color: #d7ffff;
+        border-radius: 8px;               
         background-color:#faf3ee ;
-    
+        box-sizing: border-box;
           }
- input{
-   border color: #bbbec2  ;
-   margin: ;
-   box-sizing: border-box;
-   border-radius: 8px;
-       }
+          input [type=submit] {
+            background-color: #7fcecd ;
+            color:#712300;
+            border-radius: 8px; 
+              }
 
-input [type=submit] {
-    background-color: #7fcecd ;
-    border-radius: 8x;
-    color:#712300;
-      }
+    input{
+   border-color: #bbbec2;
+    box-sizing: border-box;
+          }
+
+
  
     
 
