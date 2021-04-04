@@ -1,75 +1,56 @@
-*{
-padding: 0;
-margin: 0;
-border: 0;
-}
-*,*:before,*:after{
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
-:focus,:active{outline: none;}
-a:focus, a:active{outline:none;}
-
-nav, footer,header, aside{display: block;}
-html,body{
-    height:100%;
-    width: 100%;
-    font-size: 100%;
-    line-height: 1;
-    font-size: 16px;
-    -ms-text-size-adjust:100%;
-    -moz-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-    }
-input, button,textarea{font-family: inherit;}
-input::-ms-clear {display: none;}
-button{cursor: pointer;}
-button::-moz-focus-inner{padding: 0;border: 0;}
-a,a:visited{text-decoration:none;}
-a:hover{text-decoration: none;}
-ul li{list-style: none;}
-img{vertical-align: top;}
-h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
-
-form{background-color:#faf3ee ;
-
-}
 .anketa {
     font-size: 32px;
-     color :  #712300;
-    }
+    color :  #712300;
+}
 .info{
     font-size: 18px;
     color:  #7fcecd;
     font-weight: 700;
     text-transform: uppercase;
-            
-    }
-    .chouse{
-        font-weight: bold;
-        font-size: 16px;
-       }
-    .textleft{
-        text-align:left ;
-        }
-    
-    fieldset {
-        border-color: #d7ffff;
-        border-radius: 8px;               
-        background-color:#faf3ee ;
-        box-sizing: border-box;
-          }
-          input [type=submit] {
-            background-color: #7fcecd ;
-            color:#712300;
-            border-radius: 8px; 
-              }
-
-    input{
-   border-color: #bbbec2;
+}
+ .chouse{
+     font-weight: bold;
+    font-size: 16px;
+}
+.textleft{
+     text-align:left ;
+ }
+.block{
+    width: 750px;
+    border-color: #d7ffff;
+    border-radius: 8px;               
+    background-color:#faf3ee ;
     box-sizing: border-box;
-          }
+     }
+ input [type=submit] {
+    background-color: #7fcecd ;
+    color:#712300;
+    border-radius: 8px; 
+         }
+
+input{
+    border-color: #bbbec2;
+    box-sizing: border-box;
+    text-align: justify;
+    }
+.submit{
+    border-radius: 8px;
+    border-color: #d7ffff;
+    color: #712300;
+}
+.form-row{
+   display: flex;
+   justify-content: space-between;
+   padding: .5em;
+   height: 25px;
+}
+.form-row > label{
+    padding: .5em 1em .5em 0 ;
+    flex: 1;
+}
+.form-row > input{
+    flex: 2;
+}
 
 
  

@@ -4,6 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>форми</title>
+    <link rel="stylesheet" href="CSS/normalize.css">
 <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
@@ -13,23 +14,23 @@
     
     <fieldset class="block"> 
         <legend class="info" >Контактная информация</legend>
-        <div>
+        <div class="form-row">
             <Label for="username"class="textleft">Имя</Label> 
              <input type="text"  name="" id="username">
                                   
         </div>
     
-        <div>
+        <div class="form-row">
           <label for="tel"class="textleft">Телефон</label> 
            <input type="tel"  name="" id="tel">
         </div>
     
-             <div>
+        <div class="form-row">
           <label for="email"class="textleft">Email</label> 
            <input type="email"  name="" id="email">
         </div>
     
-        <div>
+        <div class="form-row">
          <label for="date" class="textleft">Дата посещения</label>  
             <input type="date"  name="" id="date">
         </div>
@@ -41,12 +42,12 @@
     <fieldset class="block">
         <legend  class="info">Персональная информация </legend>
 
-        <div>
+        <div class="form-row">
     <label for="year" class="textleft">Возраст</label>
     <input type="number". min="1" max="100" step="1" id="year"  >
         </div>
          
-        <div>
+        <div class="form-row">
             <label class="textleft">Любимая кухня</label>
             <select name="кухня" >
                 <option selected  value="Русская">Русская</option>
@@ -57,7 +58,7 @@
             </select>
         </div>
 
-          <div>
+        <div class="form-row">
             <label for="kitchen" class="textleft">Какие блюда Вы бы хотели увидеть в меню?</label>
             <textarea name="" id="kitchen" cols="30" rows="10"></textarea>
          </div>
@@ -65,20 +66,20 @@
     </fieldset>
 <br>
     <fieldset class="block">
-<legend  class="info">Оценка нашего заведения</legend>
-<label for="chouse" class="chouse"> Почему Вы выбрали наше заведение?</strong> </label>
-  <p> <input type="radio" name="выбор" value="рядом" id="chouse"  >Недалеко от дома/работы</p>
-  <p> <input type="radio" checked  name="выбор" value="реклама" id="chouse" >Увидел рекламу</p>
-  <p> <input type="radio" name="выбор" value="совет" id="chouse" >Посоветовали</p>
-  <p> <input type="radio" name="выбор" value="качество"  id="chouse">Оптимальное соотношение цены и качества</p>
+        <legend  class="info">Оценка нашего заведения</legend>
+        <label for="chouse" class="chouse"> Почему Вы выбрали наше заведение?</strong> </label>
+         <p> <input type="radio" name="выбор" value="рядом" id="chouse"  >Недалеко от дома/работы</p>
+         <p> <input type="radio" checked  name="выбор" value="реклама" id="chouse" >Увидел рекламу</p>
+         <p> <input type="radio" name="выбор" value="совет" id="chouse" >Посоветовали</p>
+         <p> <input type="radio" name="выбор" value="качество"  id="chouse">Оптимальное соотношение цены и качества</p>
 
-  <label for="chouse1" class="chouse"> Вы будете рекомендовать наше заведение своим знакомым?</strong> </label>
-  <p> <input type="radio" name="выбор" value="да" id="chouse1" >да</p>
-  <p> <input type="radio" name="выбор" value="нет"  id="chouse1" >нет</p>
+        <label for="chouse1" class="chouse"> Вы будете рекомендовать наше заведение своим знакомым?</strong> </label>
+             <p> <input type="radio" name="выбор" value="да" id="chouse1" >да</p>
+             <p> <input type="radio" name="выбор" value="нет"  id="chouse1" >нет</p>
   
-    </fieldset>
-    <br>
-    <input type="submit" value="Отправить">
+     </fieldset>
+ <br>
+    <input type="submit" class="submit"  value="Отправить">
 </form>
 </body>
 </html>
